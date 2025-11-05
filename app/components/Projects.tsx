@@ -1,0 +1,76 @@
+import Card from "./Card";
+
+function Projects() {
+  return (
+    <div className="pt-16 pb-16">
+      <h1 className="text-3xl sm:text-4xl text-white text-center font-bold mb-4">
+        My Projects
+      </h1>
+      <div className="flex flex-col lg:flex-row items-center justify-center mx-auto w-[90%] lg:w-[70%] text-white text-center lg:text-left mt-20 mb-20 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Card
+            images={[
+              "p1/ecom1.PNG",
+              "p1/ecom2.PNG",
+              "p1/ecom3.PNG",
+              "p1/ecom4.PNG",
+            ]}
+            title={"E-Commerce-Shop"}
+            description={""}
+            tags={["Next.js", "Tailwind CSS", "TypeScript"]}
+            link={"https://e-commerce-shop-nb7y.vercel.app/"}
+          />
+          <Card
+            images={["p2/salon1.PNG", "p2/salon2.PNG", "p2/salon3.PNG"]}
+            title={"Salon Project"}
+            description={""}
+            tags={["Java", "Spring Boot", "Microservices", "MySQL"]}
+            link={""}
+          />
+          <Card
+            images={[
+              "p3/Landing-Page.PNG",
+              "p3/Landing-Page2.PNG",
+              "p3/Landing-Page3.PNG",
+              "p3/Landing-Page4.PNG",
+              "p3/Landing-Page5.PNG",
+            ]}
+            title={"Landing-Page"}
+            description={""}
+            tags={["Next.js", "Tailwind CSS", "TypeScript"]}
+            link={"https://gimy-shop-nine.vercel.app/"}
+          />
+          {/*<Card
+            images={[""]}
+            title={"Egypt-Game-Store"}
+            description={""}
+            tags={["Next.js", "Tailwind CSS", "TypeScript"]}
+            link={""}
+          />*/}
+          <Card
+            images={["p5/pizzamenu.PNG"]}
+            title={"Pizza-Menu"}
+            description={""}
+            tags={["React.js", "CSS", "JavaScript"]}
+            link={"https://github.com/mohamed-gamal-abuzaid/pizza-menu"}
+          />
+          <Card
+            images={["p6/catalog1.PNG", "p6/catalog2.PNG", "p6/catalog3.PNG"]}
+            title={"Catalog"}
+            description={""}
+            tags={[
+              "Java",
+              "Spring Boot",
+              "MySQL",
+              "Next.js",
+              "Tailwind CSS",
+              "TypeScript",
+            ]}
+            link={"https://github.com/mohamed-gamal-abuzaid/back-end-catalog"}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+export default Projects;
