@@ -58,10 +58,11 @@ export default function TopPage() {
           href="https://wa.me/201122503776"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 text-sm sm:text-base lg:text-lg font-semibold text-black bg-white px-5 sm:px-6 lg:px-8 py-2 sm:py-3 rounded-full hover:bg-gray-200 transition shadow-md w-full sm:w-auto"
         >
-          <FaWhatsapp className="text-base sm:text-lg text-green-500" />
-          Get in touch
+          <button className="flex items-center justify-center gap-2 text-sm sm:text-base lg:text-lg font-semibold text-black bg-white px-5 sm:px-6 lg:px-8 py-2 sm:py-3 rounded-full hover:bg-gray-200 transition shadow-md w-full sm:w-auto">
+            <FaWhatsapp className="text-base sm:text-lg text-green-500" />
+            Get in touch
+          </button>
         </a>
 
         {/* More About Me Button */}

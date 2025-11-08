@@ -68,7 +68,7 @@ const Contact = () => {
         Feel free to contact me — I’ll get back to you soon!
       </p>
 
-      <div className="w-[90%] sm:w-[80%] lg:w-[60%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 items-center mt-16">
+      <div className="w-[90%] sm:w-[80%] lg:w-[60%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 items-center mt-16 text-lg">
         <div className="h-full">
           <input
             type="text"
