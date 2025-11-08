@@ -65,10 +65,12 @@ export default function TopPage() {
         </a>
 
         {/* More About Me Button */}
-        <button className="flex items-center justify-center gap-2 text-sm sm:text-base lg:text-lg font-semibold text-black bg-white px-5 sm:px-6 lg:px-8 py-2 sm:py-3 rounded-full hover:bg-gray-200 transition shadow-md w-full sm:w-auto">
-          More About Me
-          <FaArrowRightLong className="text-base sm:text-lg" />
-        </button>
+        <a href="#about">
+          <button className="flex items-center justify-center gap-2 text-sm sm:text-base lg:text-lg font-semibold text-black bg-white px-5 sm:px-6 lg:px-8 py-2 sm:py-3 rounded-full hover:bg-gray-200 transition shadow-md w-full sm:w-auto">
+            More About Me
+            <FaArrowRightLong className="text-base sm:text-lg" />
+          </button>
+        </a>
       </div>
       <div className="flex flex-wrap text-white font-bold mx-auto items-center justify-center gap-4 mt-12 h-auto w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%]">
         <FaReact className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-14 lg:h-14" />
