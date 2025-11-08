@@ -35,7 +35,6 @@ const Header = () => {
             </div>
           </div>
 
-          {/* 🔹 Nav Links (سطر ثاني في الموبايل) */}
           <ul className="flex flex-wrap justify-center gap-3 sm:gap-6 text-gray-300 text-xs sm:text-sm">
             <li>
               <a
