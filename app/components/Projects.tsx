@@ -16,14 +16,18 @@ function Projects() {
               "p1/ecom4.PNG",
             ]}
             title={"E-Commerce-Shop"}
-            description={""}
+            description={
+              "A modern online store built with Next.js and Tailwind CSS, featuring product listings, dynamic routing, and responsive design for a seamless shopping experience."
+            }
             tags={["Next.js", "Tailwind CSS", "TypeScript"]}
             link={"https://e-commerce-shop-nb7y.vercel.app/"}
           />
           <Card
             images={["p2/salon1.PNG", "p2/salon2.PNG", "p2/salon3.PNG"]}
             title={"Salon Project"}
-            description={""}
+            description={
+              "A Back-end salon management system built with Spring Boot microservices and MySQL, handling appointments, clients, and services with a RESTful backend architecture."
+            }
             tags={["Java", "Spring Boot", "Microservices", "MySQL"]}
             link={""}
           />
@@ -36,7 +40,9 @@ function Projects() {
               "p3/Landing-Page5.PNG",
             ]}
             title={"Landing-Page"}
-            description={""}
+            description={
+              "A responsive landing page for a headphone brand built with Next.js and Tailwind CSS, focused on clean design, performance, and accessibility."
+            }
             tags={["Next.js", "Tailwind CSS", "TypeScript"]}
             link={"https://gimy-shop-nine.vercel.app/"}
           />
@@ -50,14 +56,18 @@ function Projects() {
           <Card
             images={["p5/pizzamenu.PNG"]}
             title={"Pizza-Menu"}
-            description={""}
+            description={
+              "A simple React app displaying a pizza menu using component-based architecture and dynamic rendering with clean, reusable CSS styling."
+            }
             tags={["React.js", "CSS", "JavaScript"]}
             link={"https://github.com/mohamed-gamal-abuzaid/pizza-menu"}
           />
           <Card
             images={["p6/catalog1.PNG", "p6/catalog2.PNG", "p6/catalog3.PNG"]}
             title={"Catalog"}
-            description={""}
+            description={
+              "A full-stack product catalog system integrating a Java Spring Boot backend with a Next.js frontend, featuring CRUD operations and MySQL database ."
+            }
             tags={[
               "Java",
               "Spring Boot",

@@ -37,15 +37,37 @@ const Header = () => {
 
           {/* 🔹 Nav Links (سطر ثاني في الموبايل) */}
           <ul className="flex flex-wrap justify-center gap-3 sm:gap-6 text-gray-300 text-xs sm:text-sm">
-            <li className="hover:text-white transition cursor-pointer">Work</li>
-            <li className="hover:text-white transition cursor-pointer">
-              About
+            <li>
+              <a
+                href="#home"
+                className="hover:text-white transition cursor-pointer"
+              >
+                Home
+              </a>
             </li>
-            <li className="hover:text-white transition cursor-pointer">
-              Experience
+            <li>
+              <a
+                href="#about"
+                className="hover:text-white transition cursor-pointer"
+              >
+                About
+              </a>
             </li>
-            <li className="hover:text-white transition cursor-pointer">
-              Contact
+            <li>
+              <a
+                href="#experience"
+                className="hover:text-white transition cursor-pointer"
+              >
+                Experience
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="hover:text-white transition cursor-pointer"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>
