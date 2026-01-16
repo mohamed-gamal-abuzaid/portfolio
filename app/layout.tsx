@@ -29,7 +29,7 @@ export default function RootLayout({
       >
         <div
           className="min-h-screen bg-cover bg-center pt-6 bg-fixed "
-          style={{ backgroundImage: "url('/Tiger Black Wallpaper.jpg')" }}
+          
         >
           {children}
         </div>
