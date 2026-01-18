@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between px-4 py-3 text-white gap-3 sm:gap-0">
           <div className="flex flex-wrap items-center justify-between w-full sm:w-auto gap-3">
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border flex items-center justify-center font-bold text-xs sm:text-sm">
+              <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full border  flex items-center justify-center font-bold text-xs sm:text-sm">
                 MG
               </div>
               <span className="text-gray-200 font-medium text-sm sm:text-base">
