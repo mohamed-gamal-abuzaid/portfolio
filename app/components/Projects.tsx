@@ -73,7 +73,7 @@ function Projects() {
               "A Back-end salon management system built with Spring Boot microservices and MySQL, handling appointments, clients, and services with a RESTful backend architecture."
             }
             tags={["Java", "Spring Boot", "Microservices", "MySQL"]}
-            link={""}
+            link={"https://github.com/mohamed-gamal-abuzaid/salon-project"}
           />
           <Card
             images={[
