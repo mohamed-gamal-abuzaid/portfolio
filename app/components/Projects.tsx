@@ -9,6 +9,50 @@ function Projects() {
       <div className="flex flex-col lg:flex-row items-center justify-center mx-auto w-[90%] lg:w-[70%] text-white text-center lg:text-left mt-20 mb-20 gap-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <Card
+            video="/videos/ash-store.mp4"
+            title={"ASH Store"}
+            description={
+              `A Modern full-stack Freelance Store "ASH Store " built with Next.js and Tailwind CSS, featuring a responsive design and user-friendly interface , This Website is a showcase of my skills in frontend development and design.`
+            }
+            tags={[
+              "Next.js",
+              "Tailwind",        
+              "Spring Boot",
+              "Java",
+              "MySQL",
+              "Shadcn UI",
+              "Vercel",
+              "Koyeb",
+              "Aiven Console",
+              "React Icons",
+              "Cloudinary",
+              "TypeScript",
+            ]}
+            link={"https://ash-store1212.vercel.app/"}
+          />
+          <Card
+            video="/videos/admin-dashboard.mp4"
+            title={"Admin Dashboard"}
+            description={
+              "A full-stack Admin Dashboard built with Next.js and Tailwind CSS, featuring a responsive design and user-friendly interface."
+            }
+            tags={[
+              "Next.js",
+              "Tailwind",
+              "Spring Boot",
+              "Java",
+              "MySQL",
+              "Shadcn UI",
+              "Vercel",
+              "Koyeb",
+              "Aiven Console",
+              "React Icons",
+              "Cloudinary",
+              "TypeScript",
+            ]}
+            link={""}
+          />
+          <Card
             images={[
               "p1/ecom1.PNG",
               "p1/ecom2.PNG",
